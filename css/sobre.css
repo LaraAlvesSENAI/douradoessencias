@@ -1,0 +1,101 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: Bahnschrift;
+    background-color: #E9D4BF;
+}
+a:-webkit-any-link {
+    color: #2c2300;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.MenuTopo{
+    background-color: #EAD8AC;
+}
+.logo{
+    padding-top: 30px;
+    width: 170px;
+    height: 100px;
+    gap: 30px;
+}
+.menus{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.bannerinicial{
+    width: 100%;
+    height: 660px;
+}
+.floatright{
+    float: right;
+    margin-right: 0px;
+    width: 600px;
+    height: 400px;
+    /*animation: move 5s infinite;*/
+}
+.floatright:hover{
+    /*animation: move 2s infinite;*/
+    transform: rotate(-30deg);
+}
+/**@keyframes move {*/
+/*    0% {transform: translateX(0px);}*/
+/*    25% {transform: translateY(20px);}*/
+/*    50% {transform: translateX(100px);}*/
+/*    100% {transform: translateX(0px);}*/
+/*}*/
+.info{
+    text-align: center;
+}
+.desc{
+    font-size: larger;
+}
+.info {
+    padding-top: 70px;
+}
+.containerinicio{
+    display: flex;
+    justify-content: space-between;
+}
+.rodape{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #E8C8A7;
+}
+.local{
+    width: 50px;
+    height: 45px;
+    padding-top: 50px;
+}
+.textinho{
+    padding-top: 45px;
+}
+.whatsapp{
+    width: 50px;
+    height: 50px;
+    padding-top: 50px;
+    justify-content: flex-end;
+}
+.insta{
+    width: 40px;
+    height: 40px;
+    padding-top: 50px;
+    justify-content: flex-end;
+}
+.logorod{
+    padding-top: 30px;
+    width: 170px;
+    height: 100px;
+}
+.preco{
+    font-size: larger;
+}
+.infodois {
+    padding-top: 70px;
+}
+.containerinicio{
+    display: flex;
+    justify-content: space-between;
+}

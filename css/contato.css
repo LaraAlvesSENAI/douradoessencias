@@ -1,0 +1,119 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: Bahnschrift;
+    background-color: #E9D4BF;
+}
+a:-webkit-any-link {
+    color: #2c2300;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.MenuTopo{
+    background-color: #EAD8AC;
+}
+.logo{
+    width: 170px;
+    height: 100px;
+}
+.menus{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.bannerinicial{
+    width: 100%;
+    height: 540px;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+.floatleft{
+    float: left;
+    margin-right: 10px;
+    width: 220px;
+    height: 430px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #CAA283;
+}
+.desc{
+    font-size: larger;
+}
+.formulario input{
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+.btnForm{
+    border-radius: 10px;
+    background-color: #A77B62;
+    color: white;
+    border-color: transparent;
+    width: 300px;
+    height: 50px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+    /*animation: move 2s infinite;*/
+}
+/*@keyframes move {*/
+/*    0% {transform: translateX(0px);}*/
+/*    25% {transform: translateY(20px);}*/
+/*    50% {transform: translateX(100px);}*/
+/*    100% {transform: translateX(0px);}*/
+/*}*/
+.btnForm:hover {
+    /*pode adicionar o scale aqui*/
+    /*transform: translateX(100px);*/
+    background: linear-gradient(to left, #dcc2a9, #A77B62);
+}
+.rodape{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #E8C8A7;
+}
+.local{
+    width: 50px;
+    height: 45px;
+    padding-top: 50px;
+}
+.textinho{
+    padding-top: 45px;
+}
+.whatsapp{
+    width: 50px;
+    height: 50px;
+    padding-top: 50px;
+    justify-content: flex-end;
+}
+.insta{
+    width: 40px;
+    height: 40px;
+    padding-top: 50px;
+    justify-content: flex-end;
+}
+.logorod{
+    padding-top: 30px;
+    width: 170px;
+    height: 100px;
+}
+.preco{
+    font-size: larger;
+}
+.infodois {
+    padding-top: 70px;
+}
+.containerinicio{
+    display: flex;
+    justify-content: space-between;
+}
